@@ -1,0 +1,48 @@
+.section {
+    padding: 50px 0;
+    text-align: center;
+    height: 82.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sectionTitle {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.sectionText {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.serviceItem {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+}
+
+.serviceTitle {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.serviceText {
+    color: black;
+    font-size: 16px;
+    margin-top: 15px;
+}

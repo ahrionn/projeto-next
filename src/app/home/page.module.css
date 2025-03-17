@@ -1,0 +1,37 @@
+.hero {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+    height: 82.5%;
+    display: flex;
+    align-items: center;
+}
+
+.heroContent {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.heroTitle {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.heroText {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.ctaBtn {
+    padding: 15px 30px;
+    background-color: #ff6600;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.ctaBtn:hover {
+    background-color: #ff4400;
+}

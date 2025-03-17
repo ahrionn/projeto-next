@@ -1,0 +1,21 @@
+.section {
+    padding: 50px 0;
+    text-align: center;
+    height: 82.5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sectionTitle {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.sectionText {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+}
